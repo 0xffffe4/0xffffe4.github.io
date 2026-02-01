@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{% if page.title %}{{ page.title }} - {% endif %}{{ site.title }}</title>
+  <link rel="stylesheet" href="{{ '/assets/css/telegraph_exact.css' | relative_url }}">
+</head>
+<body>
+  <div class="tl_page_wrap">
+    <div class="tl_page">
+      <main class="tl_article">
+        {{ content }}
+      </main>
+    </div>
+  </div>
+</body>
+</html>

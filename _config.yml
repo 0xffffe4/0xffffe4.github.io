@@ -1,0 +1,23 @@
+# Site settings
+title: katharsis blog
+description: A minimal blog
+baseurl: ""
+url: ""
+
+# Build settings
+markdown: kramdown
+permalink: /:title.html
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - mirror_site.py
+  - requirements.txt
+  - mirrored_site
+  - venv
+  - run.sh
+  - extract_posts.py
+  - README.md
